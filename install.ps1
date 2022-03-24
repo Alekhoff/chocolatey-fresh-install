@@ -1,6 +1,6 @@
 #Requires -RunAsAdministrator
 $run_local=$args[0]
-$url_fallback = ""
+$url_fallback = "https://raw.githubusercontent.com/Alekhoff/chocolatey-fresh-install/master/packages.config"
 
 
 # install chocolatey if not installed

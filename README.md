@@ -13,7 +13,7 @@ $ Set-ExecutionPolicy Bypass -Scope Process -Force
 ```
 Run the following command(change the url to match your github user):
 ```console
-$ Invoke-Expression((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/YOUR-GITHUB-URL/install.ps1'))
+$ Invoke-Expression((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Alekhoff/chocolatey-fresh-install/master/install.ps1'))
 ```
 It downloads the chocolatey script and execute it.
 
